@@ -1,0 +1,57 @@
+#home{background-image: url(../images/臉書橫式BANNER設計.png);}
+#about{background-color:blanchedalmond;}
+ /* #news{background-image: url(../images/p2.jpg);}  */
+ #service{background-image: url(../images/p3.jpg);}
+#contact{background-image: url(../images/p4.jpg);}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    background-color: #000;
+}
+nav img{
+    width: 100px;
+}
+section{ 
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 150px;
+}
+.txt-bg{
+    background-color:rgba(255,255,255,.6);
+    border-radius: 50PX;
+    text-align: justify;
+    padding: 50px;
+    width: 800px;
+    margin: auto;
+
+}
+.txt-bg h2{
+    text-align: center;
+}
+
+.txt-bg i{
+    color: brown;
+}
+#news {
+    background-color: blanchedalmond;
+}
+#news .imgbox .box{
+    
+    width:10%;
+    display:inline-block;
+
+
+
+}
+#news .imgbox .box img{
+    border: 3px #ccc solid;  
+}
+/* #about .img{
+    width:500px;
+    height:300px;
+} */
